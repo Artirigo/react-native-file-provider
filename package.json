@@ -1,0 +1,32 @@
+{
+  "name": "react-native-file-provider",
+  "version": "1.0.0",
+  "description": "React Native Module for setting up a FileProvider for File Sharing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "android",
+    "sharing"
+  ],
+  "author": "Martin Rädlinger",
+  "maintainers": [
+    {
+      "email": "mr@formatlos.de",
+      "name": "Martin Rädlinger"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Artirigo/react-native-file-provider",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artirigo/react-native-file-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Artirigo/react-native-file-provider/issues"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,9 @@
+rootProject.name = 'FileProviderExample'
+
+include ':app'
+include ':react-native-share'
+project(':react-native-share').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-share/android')
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
+include ':react-native-file-provider'
+project(':react-native-file-provider').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-file-provider/android')

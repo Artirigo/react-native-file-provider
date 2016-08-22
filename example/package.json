@@ -1,0 +1,14 @@
+{
+  "name": "FileProviderExample",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "15.2.1",
+    "react-native": "0.31.0",
+    "react-native-file-provider": "../",
+    "react-native-fs": "^2.0.1-rc.2",
+    "react-native-share": "git+https://github.com/Artirigo/react-native-share.git#sharing-content-uris"
+  }
+}

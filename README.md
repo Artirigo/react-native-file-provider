@@ -27,13 +27,15 @@ After generating a contentUri you can for example share the file with other Apps
 #### Android
 
 1. Append the following lines to `android/settings.gradle`:
+
   	```
   	include ':react-native-file-provider'
   	project(':react-native-file-provider').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-file-provider/android')
   	```
 2. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
+    
   	```
-      compile project(':react-native-file-provider')
+    compile project(':react-native-file-provider')
   	```
 3. Import Package
   

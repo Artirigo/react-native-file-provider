@@ -1,6 +1,6 @@
 {
   "name": "react-native-file-provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native Module for setting up a FileProvider for File Sharing",
   "main": "index.js",
   "scripts": {

@@ -46,7 +46,7 @@ After generating a contentUri you can for example share the file with other Apps
     ```java
     ...
     // 1. Import the plugin class.
-   import com.artirigo.screenlayout.RNFileProviderPackage;
+   import com.artirigo.fileprovider.RNFileProviderPackage;
     
     public class MainApplication extends Application implements ReactApplication {
     
@@ -73,7 +73,7 @@ After generating a contentUri you can for example share the file with other Apps
     ...
     // 1. Import the plugin class (if you used RNPM to install the plugin, this
     // should already be done for you automatically so you can skip this step).
-    import com.artirigo.screenlayout.RNFileProviderPackage;
+    import com.artirigo.fileprovider.RNFileProviderPackage;
     
     public class MainActivity extends ReactActivity {    
         @Override

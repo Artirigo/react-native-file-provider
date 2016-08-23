@@ -12,6 +12,8 @@ The files can reside in one of this places:
 
 After generating a contentUri you can for example share the file with other Apps using [react-native-share](https://github.com/EstebanFuentealba/react-native-share), etc.
 
+**Caution: the current state of [react-native-share](https://github.com/EstebanFuentealba/react-native-share) 
+doesn't allow to use contentUris other than from the Image Library. Use my fork (https://github.com/Artirigo/react-native-share.git#sharing-content-uris) instead until it will be merged in.**
 
 ## Getting started
 

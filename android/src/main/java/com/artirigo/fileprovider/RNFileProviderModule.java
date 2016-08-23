@@ -29,6 +29,9 @@ public class RNFileProviderModule extends ReactContextBaseJavaModule {
   @ReactMethod
   public void getUriForFile(String authority, String filepath, Promise promise) {
     try {
+      // replace file-protocol if present
+      filepath = filepath.replace("file://", "");
+      //
       File file = new File(filepath);
       if (!file.exists()) throw new Exception("File does not exist");
       Uri contentUri = FileProvider.getUriForFile(this.getReactApplicationContext(), authority, file);

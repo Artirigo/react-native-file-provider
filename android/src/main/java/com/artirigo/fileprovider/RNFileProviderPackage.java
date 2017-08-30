@@ -16,7 +16,7 @@ public class RNFileProviderPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new RNFileProviderModule(reactContext));
     }
 
-    @Override
+    // deprecated >= RN 0.47.0
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }

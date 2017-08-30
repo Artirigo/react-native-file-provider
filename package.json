@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/Artirigo/react-native-file-provider/issues"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.40.0"
+  }
 }
